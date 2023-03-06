@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
 
 
     try{
-     ResponseModel value =  await apiClient.postCompleted('Bearer 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',
+     ResponseModel value =  await apiClient.postCompleted('Bearer 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',
         RequestModel(
             "text-davinci-003",
             textEditingController.text ,
